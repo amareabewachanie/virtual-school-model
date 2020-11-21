@@ -1,0 +1,10 @@
+.ui-menubar{
+  background-color: #19b59fed;
+}
+.ui-menu-list{
+  background-color: #19b59fed;
+}
+#sticky-footer {
+  flex-shrink: none;
+  position: sticky;
+}

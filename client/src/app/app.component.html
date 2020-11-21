@@ -1,0 +1,14 @@
+
+<p-menubar [model]="items">
+      <span class="p-input-icon-right p-ml-5">
+          <i class="pi pi-spin pi-spinner"></i>
+          <input type="text" pInputText >
+      </span>
+    <button pButton pRipple type="button" [routerLink]="['/account']"  label="Account" icon="pi pi-users" class="p-button-text p-button-plain"></button>
+</p-menubar>
+<router-outlet></router-outlet>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Girum Technologies</small>
+  </div>
+</footer>
