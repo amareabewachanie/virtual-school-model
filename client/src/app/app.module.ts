@@ -44,6 +44,7 @@ import { UserComponent } from './components/managment/user/user.component';
 import { GradeComponent } from './components/managment/grade/grade.component';
 import { SubjectComponent } from './components/managment/subject/subject.component';
 import { TopicComponent } from './components/managment/topic/topic.component';
+import { ErrorInterceptorProvider } from './interceptors/error.interceptor';
 
 @NgModule({
   declarations: [
@@ -93,7 +94,7 @@ import { TopicComponent } from './components/managment/topic/topic.component';
     ConfirmDialogModule,
     InputTextareaModule,
   ],
-  providers: [],
+  providers: [ErrorInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
